@@ -1,0 +1,7 @@
+services:
+  commandbox:
+    image: ortussolutions/commandbox
+    ports:
+      - 56917:8080
+    volumes:
+      - ./app:/app
