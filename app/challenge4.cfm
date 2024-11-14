@@ -12,7 +12,7 @@
         <li>Each rule has a <em>basis</em>. The basis may be either <em>agency_country</em> or <em>course_type</em>.</li>
         <li>If the basis is <em>agency_country</em>, compare the rule_value to the agency_country of the Application. If it matches, use this rule. If not, move to the next rule.</li>
         <li>If the basis is <em>course_type</em>, compare the rule_value to the course_type of the Application. If it matches, use this rule. If not, move to the next rule.</li>
-        <li>If none of the rules with the basis <em>agency_country</em> or <em>course_type</em> match, use the rule with the basis <em>default</em>.</li>
+        <li>If none of the rules with the basis <em>agency_country</em> or <em>course_type</em> match, use the rule with the basis <em>default</em>, which will always be last.</li>
         <li>Once a matching commission rule is found for an Application, use the commission percentage from that rule and disregard further rules.</li>
         <li>To calculate the commission payable for an Application, apply the selected commission percentage to the total fee for the Application</li>
     </ul>
