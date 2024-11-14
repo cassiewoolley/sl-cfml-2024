@@ -1,4 +1,4 @@
-# Some basic CFML tests
+# CFML Challenges
 
 To run this project
 

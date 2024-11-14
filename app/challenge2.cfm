@@ -8,6 +8,7 @@
 </cfscript>
 
 <cfoutput>
+    <h2>Challenge 2</h2>
     <p>There should be table of persons below<p>
         <table class="table">
             <tr>
@@ -19,6 +20,6 @@
             <!--- Use the JSON output from the API call to finish this table --->
         </table>
 
-        <a href="/index.cfm">Back to tests</a>
+        <p><a href="/index.cfm">Back to challenges</a></p>
 </cfoutput>
 <cfinclude template="footer.cfm">
