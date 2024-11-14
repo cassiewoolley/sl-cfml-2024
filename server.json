@@ -1,4 +1,5 @@
 {
+    "profile": "production",
     "web":{
         "http":{
             "port":"51741"
