@@ -21,6 +21,10 @@
     <p>Consider each of the commission rules in order.</p>
     <p>The first rule is for <em>agency_country = New Zealand</em>. The agency country of AAA is <b>Thailand</b>. This does not match. Move to the next rule.</p>
     <p>The second rule is for <em>agency_country = Thailand</em>.  This <b>matches</b>, therefore the commission percentage to use is <b>10%</b>. The total commission is 10% of $20,000, or <b>$2,000</b>.</p>
+
+
+    <p><b>Question:</b></p>
+    <p>Would your solution change if the Commission Rule basis could be (theoretically) one of 10-15 different fields rather than only two?</p>
     <p><a href="/index.cfm">Back to challenges</a></p>
 </cfoutput>
 
